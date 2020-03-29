@@ -1,0 +1,172 @@
+/* Write some CSS below */
+body {
+	color: #1A181B;
+	font-family: 'Lora', serif;
+	background-color: FCFAFA;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+  	transition: .3s;
+}
+
+a:hover{
+	color: #32213A;
+}
+
+a:visited{
+	color: inherit;
+}
+
+h1{
+	font-size: 40px;
+	font-family: 'Lora', serif;
+}
+
+h2{
+	margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+	padding-left: 30px
+}
+li {
+float: left;
+
+}
+li a {
+  display: block;
+  color: #1A181B;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  text-decoration: none;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 18px;
+}
+li a:hover {
+  color: #9A7AA0;
+}
+
+.handwritten {
+	font-family: 'Permanent Marker', cursive;
+	color: #1A181B;
+	margin-bottom: 30px;
+
+}
+
+.header {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 60px;
+}
+
+#blurb{
+	text-align:center;
+	font-size: 16px;
+	position: relative;
+	padding: 0px 300px 40px;
+}
+
+.portfolio{
+padding-left: 80px
+padding-right:80px;
+text-align: center;
+}
+
+#cards {
+	text-align: center;
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 16px;
+  	padding-bottom: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+}
+
+.card {
+	padding: 30px 40px 20px 40px;
+	position: relative;
+}
+
+.circle {
+	width: 250px;
+	height:250px;
+	border-radius: 50%;
+	object-fit: cover;
+	opacity: .7;
+}
+
+.circle:hover {
+	text-shadow: 0 0 16px rgba(0,0,0,0.3);
+	opacity: 1;
+}
+
+.centered {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 16px;
+}
+
+.social-media{
+	text-align: center;
+	padding-bottom: 25px;
+	color: #9A7AA0;
+}
+
+.social-media a:hover{
+	color: #32213A;
+}
+
+/*#ejc{
+	width: 240px;
+	height:240px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-top: 35px;
+	margin-left: 130px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	position: relative;
+}*/
+
+/*#intro-grid{
+	text-align: left;
+	color: #1b262c;
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 16px;
+	padding-bottom: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+}*/
+
+#cv {
+	text-align: center;
+	padding: 0px 300px 40px;
+}
+#cv h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+#contact{
+	text-align: center;
+	padding: 0px 300px 40px;
+}
+#blog{
+	padding: 0px 300px 40px;
+text-align: center;
+}
+#footer {
+	padding: 20px 300px 20px;
+	background-color: #32213A;
+	color:#FCF7F3;
+	text-align: center;
+}
