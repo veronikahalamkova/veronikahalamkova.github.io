@@ -27,7 +27,6 @@ a:visited{
   display: block;
   color: #FCFAFA;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 
@@ -35,12 +34,6 @@ a:visited{
 .menu a:hover {
   background-color: #FCFAFA;
   color: black;
-}
-
-/* Add an active class to highlight the current page */
-.menu a.active {
-  background-color: #4CAF50;
-  color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -55,9 +48,11 @@ a:visited{
 .social-media{
 	text-align: center;
 	padding: 25px 0;
-	color: #9A7AA0;
 }
 
+.social-media a{
+	color: #9A7AA0;
+}
 .social-media a:hover{
   color: #32213A;
 }
@@ -196,7 +191,7 @@ a:visited{
 	}
 	#contact{
 	padding: 0 8% 30%;
-	text-align: center;	
+	text-align: center;
 	}
 
 	#contact-grid{
@@ -207,7 +202,7 @@ a:visited{
   	#contact-pic{
  	display: none;
   	}
- 
+
 	#blog{
 		padding: 0 10% 10%;
 	}
