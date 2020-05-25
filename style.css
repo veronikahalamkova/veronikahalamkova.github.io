@@ -5,7 +5,7 @@ html,body{
 body {
 	color: #1A181B;
 	font-family: 'Lora', serif;
-	background-color: #FCFAFA; 
+	background-color: #FCFAFA;
 	margin: 0;
 	text-align: center;
 }
@@ -16,7 +16,7 @@ body {
 
 .main{
 	overflow: auto;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 
@@ -152,14 +152,66 @@ a:visited{
 	padding: 10px 0 10px;
 }
 
+#who {
+	text-align: center;
+	padding: 15px 250px 50px;
+	margin-bottom: 50px;
+}
+#who p{
+text-align: justify;
+padding: 5px 0 5px;
+}
+
+.who-pic{
+	width: 550px;
+	height: auto;
+}
+
+#who-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  	grid-gap: 10px;
+  }
+
+.who-grid-pic{
+	width: 350px;
+	height: auto;
+	margin: auto;
+}
+
+.twitter-tweet{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#iframe-wrap{
+	position: relative;
+	overflow: hidden;
+	padding-top: 150%;
+}
+
+#iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	}
+
+#scatterplot{
+	display: none;
+}
 
 /*LET'S MAKE IT RESPONSIVE!*/
 
-/*----------------------------
-/*----- 600px - 1000px -------
-/*----------------------------
+/*----------------------------*/
+/*----- 600px - 1000px -------*/
+/*----------------------------*/
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1000px) {
  .menu a:not(:first-child) {display: none;}
  .menu a.icon {
@@ -221,6 +273,12 @@ a:visited{
  }
  #footer{
 	 padding: 1% 0;
+ }
+ #who{
+	 padding: 0 10% 3%;
+ }
+ .who-grid-pic{
+ 	width: 280px;
  }
 }
 
@@ -307,6 +365,26 @@ a:visited{
 	}
 	#footer{
 		padding: 1% 0;
+	}
+	#who{
+		padding: 0 5% 3%;
+	}
+	#who-grid{
+		grid-template-columns: unset;
+	}
+	.who-grid-pic{
+	 width: 100%;
+	 padding: 0;
+	}
+	.who-pic{
+		width: 100%;
+		padding: 0;
+	}
+	#iframe-wrap{
+		display: none;
+	}
+	#scatterplot{
+		display: block;
 	}
 }
 
