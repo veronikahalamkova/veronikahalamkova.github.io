@@ -84,11 +84,11 @@ a:visited{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 30px;
-	padding: 5% 10% 5%;
+	padding: 5% 10% 10%;
 }
 
 .portfolio{
-	padding: 0 150px 0;
+	padding: 0 150px 50px;
 }
 
 .cards {
