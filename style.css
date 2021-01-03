@@ -327,19 +327,19 @@ padding: 5px 0 5px;
   	width: 100%;
   	height: auto;
   	margin: 0;
-  	padding: 0 0 3%;
+  	padding: 0 0 2%;
   }
   #blurb{
 	padding: 0 8% 0;
 	text-align: center;
   }
   .portfolio{
-  	padding: 0 10% 10%;
+  	padding: 0 10% 2%;
   }
   	.cards{
 		grid-template-columns: unset;
 	  	grid-gap: 0.5%;
-	  	padding: 0 0 10%;	  }
+	  	padding: 0 0 30%;	  }
 	.circle {
 		width: 100%;
 		height: auto;
@@ -351,7 +351,7 @@ padding: 5px 0 5px;
 	  padding-top: 0;
 	}
 	#cv {
-		padding: 0 10% 5%;
+		padding: 0 10% 10%;
 	}
 	#cv h2{
 		margin-bottom: 1%;
