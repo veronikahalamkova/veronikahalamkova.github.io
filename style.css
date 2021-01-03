@@ -22,7 +22,8 @@ body {
 
 a{
 	text-decoration: none;
-  	transition: .3s;
+  transition: .3s;
+	color:#58A4B0;
 }
 
 a:visited{
@@ -30,7 +31,7 @@ a:visited{
 }
 
 .menu{
-	background-color: #9A7AA0;
+	background-color: #A9BCD0;
 	overflow: hidden;
 	font-weight: bold;
 }
@@ -65,10 +66,10 @@ a:visited{
 }
 
 .social-media a{
-	color: #9A7AA0;
+	color: #A9BCD0;
 }
 .social-media a:hover{
-  color: #32213A;
+  color: #1B1B1E;
 }
 
 #intro-pic{
@@ -131,7 +132,7 @@ a:visited{
 }
 #contact{
 	text-align: center;
-	padding: 15px 300px 0;
+	padding: 15px 250px 0;
 }
 #contact-pic{
 	width: auto;
@@ -142,7 +143,7 @@ a:visited{
 	padding: 0px 300px 10px;
 }
 #footer {
-	background-color: #32213A;
+	background-color: #373F51;
 	color:#FCF7F3;
 	position: relative;
 	height: 50px;
