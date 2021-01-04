@@ -307,7 +307,7 @@ padding: 5px 0 5px;
  #intro-grid{
 	 grid-template-columns: unset;
 	 grid-gap: 0;
-	 padding: 5% 0 0;
+	 padding: 5% 0 5%;
  }
  #intro-pic{
 	 width: 70%;
